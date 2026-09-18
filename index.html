@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikasi Mitigasi Bencana</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 15px;
+            background-color: #f0f2f5;
+            color: #333;
+        }
+        h1 {
+            color: #d9534f;
+            text-align: center;
+            font-size: 22px;
+            margin-bottom: 20px;
+        }
+        .card {
+            background: white;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+        }
+        .card h2 {
+            font-size: 16px;
+            margin-top: 0;
+            color: #2c3e50;
+            border-bottom: 2px solid #f0f2f5;
+            padding-bottom: 8px;
+        }
+        .contact-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 8px 0;
+            border-bottom: 1px dashed #eee;
+        }
+        .contact-item:last-child {
+            border-bottom: none;
+        }
+        .btn-call {
+            background-color: #27ae60;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 13px;
+            font-weight: bold;
+        }
+        .checklist-item {
+            margin: 8px 0;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        details {
+            margin-bottom: 10px;
+            background: #fafafa;
+            padding: 10px;
+            border-radius: 6px;
+        }
+        summary {
+            font-weight: bold;
+            cursor: pointer;
+            color: #d9534f;
+        }
+        details p {
+            margin: 8px 0 0 0;
+            font-size: 14px;
+            line-height: 1.4;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Siaga Bencana ID</h1>
+
+    <div class="card">
+        <h2>🚨 Panggilan Darurat</h2>
+        <div class="contact-item">
+            <span>Layanan Darurat Terpadu</span>
+            <a href="tel:112" class="btn-call">112</a>
+        </div>
+        <div class="contact-item">
+            <span>Ambulans</span>
+            <a href="tel:118" class="btn-call">118</a>
+        </div>
+        <div class="contact-item">
+            <span>Pemadam Kebakaran</span>
+            <a href="tel:113" class="btn-call">113</a>
+        </div>
+        <div class="contact-item">
+            <span>Kepolisian</span>
+            <a href="tel:110" class="btn-call">110</a>
+        </div>
+        <div class="contact-item">
+            <span>SAR / Basarnas</span>
+            <a href="tel:115" class="btn-call">115</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>🎒 Checklist Tas Siaga Bencana</h2>
+        <div class="checklist-item">
+            <input type="checkbox" id="item1">
+            <label for="item1">Air minum untuk 3 hari</label>
+        </div>
+        <div class="checklist-item">
+            <input type="checkbox" id="item2">
+            <label for="item2">Makanan tahan lama</label>
+        </div>
+        <div class="checklist-item">
+            <input type="checkbox" id="item3">
+            <label for="item3">Kotak P3K dan obat pribadi</label>
+        </div>
+        <div class="checklist-item">
+            <input type="checkbox" id="item4">
+            <label for="item4">Senter dan baterai cadangan</label>
+        </div>
+        <div class="checklist-item">
+            <input type="checkbox" id="item5">
+            <label for="item5">Peluit penanda posisi</label>
+        </div>
+        <div class="checklist-item">
+            <input type="checkbox" id="item6">
+            <label for="item6">Uang tunai dan dokumen penting</label>
+        </div>
+        <div class="checklist-item">
+            <input type="checkbox" id="item7">
+            <label for="item7">Pakaian ganti dan jas hujan</label>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>📖 Panduan Aksi Cepat</h2>
+        <details>
+            <summary>Gempa Bumi</summary>
+            <p>Lindungi kepala dan merunduk di bawah meja yang kuat. Jauhi kaca atau barang yang mudah jatuh. Jangan gunakan lift saat evakuasi.</p>
+        </details>
+        <details>
+            <summary>Banjir</summary>
+            <p>Matikan seluruh aliran listrik dan gas di rumah. Pindahkan barang berharga ke tempat lebih tinggi dan segera menuju titik kumpul aman.</p>
+        </details>
+        <details>
+            <summary>Kebakaran</summary>
+            <p>Merangkaklah di bawah asap untuk bernapas. Gunakan kain basah untuk menutup hidung dan mulut, lalu keluar lewat jalur evakuasi.</p>
+        </details>
+    </div>
+
+</body>
+              </html>
